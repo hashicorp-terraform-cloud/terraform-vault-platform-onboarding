@@ -31,13 +31,7 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_kubernetes_cluster_api_address"></a> [kubernetes\_cluster\_api\_address](#input\_kubernetes\_cluster\_api\_address) | kubernetes cluster api address | `string` | n/a | yes |
-| <a name="input_kubernetes_cluster_insecure"></a> [kubernetes\_cluster\_insecure](#input\_kubernetes\_cluster\_insecure) | value to skip TLS verification. not for production use cases. | `bool` | `false` | no |
-| <a name="input_kubernetes_cluster_token"></a> [kubernetes\_cluster\_token](#input\_kubernetes\_cluster\_token) | kubernetes cluster token. not for production use cases. | `string` | n/a | yes |
 | <a name="input_project_name"></a> [project\_name](#input\_project\_name) | The name of the project to onboard | `string` | n/a | yes |
-| <a name="input_vault_cluster_address"></a> [vault\_cluster\_address](#input\_vault\_cluster\_address) | vault cluster api address | `string` | n/a | yes |
-| <a name="input_vault_cluster_token"></a> [vault\_cluster\_token](#input\_vault\_cluster\_token) | vault cluster token. not for production use cases. | `string` | n/a | yes |
-| <a name="input_vautl_cluster_root_namespace"></a> [vautl\_cluster\_root\_namespace](#input\_vautl\_cluster\_root\_namespace) | the namespace  to ue as the root for onboarding | `string` | n/a | yes |
 
 ## Outputs
 
